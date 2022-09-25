@@ -16,5 +16,10 @@ namespace git_101_a
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Console.Write("Test1");
+        }
     }
 }
